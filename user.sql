@@ -1,1 +1,1 @@
-Select * from Users
+Select * from Cards

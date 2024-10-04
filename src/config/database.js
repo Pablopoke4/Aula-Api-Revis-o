@@ -5,7 +5,7 @@ const sequelize = new Sequelize({
     storage: 'database.sqlite'
 });
 
-sequelize.authenticate()
+sequelize.authenticate() 
     .then(() => {
         console.log('Conexão feita com sucesso.');
         return sequelize.sync();
